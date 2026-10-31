@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 2,
+  "Trivy": {
+    "Version": "0.76.1"
+  },
+  "ReportID": "01a191fb-ee5c-7972-8b49-f22f149d9b2e",
+  "CreatedAt": "2026-10-31T12:42:49.308623637Z",
+  "ArtifactID": "sha256:57e1a71828c196270e1695e4b9d44ccb31dd86385631c27085c2ef2453141f22",
+  "ArtifactName": ".",
+  "ArtifactType": "repository",
+  "Metadata": {
+    "RepoURL": "https://github.com/hjsvieira98/bank-docs-rag",
+    "Branch": "security/vuln-check-2026-10-31",
+    "Commit": "e405ca627c29d43f39755b8c96381515b7153eba",
+    "CommitMsg": "docs: explain the architecture and record the measured eval\n\nDocument how to run Fathom from a clone, why LanceDB and the offline reader\nare the defaults, and the retrieval and faithfulness numbers produced in this\nrepository.\n\nCo-authored-by: Humberto Vieira \u003chjsvieira98@users.noreply.github.com\u003e",
+    "Author": "Cursor Agent \u003ccursoragent@cursor.com\u003e",
+    "Committer": "Cursor Agent \u003ccursoragent@cursor.com\u003e"
+  }
+}

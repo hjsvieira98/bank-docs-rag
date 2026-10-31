@@ -1,0 +1,3 @@
+ INFO zizmor: 🌈 zizmor v1.31.1
+ WARN audit: zizmor: zizmor is running in offline mode by default; some audits and auto-fixes will not be available. see https://docs.zizmor.sh/usage/#operating-modes for details
+ INFO audit: zizmor: 🌈 completed .github/workflows/ci.yml
