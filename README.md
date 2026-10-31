@@ -74,7 +74,7 @@ The index under `data/` is generated and gitignored.
 
 ## Run it
 
-Node.js 22 or newer (`engines` and `.nvmrc`). From a fresh clone:
+Node.js 22.23.4 or newer (`engines` and `.nvmrc`). From a fresh clone:
 
 ```bash
 npm install
