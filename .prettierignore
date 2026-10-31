@@ -4,3 +4,4 @@ data
 coverage
 package-lock.json
 corpus/*.pdf
+security-report

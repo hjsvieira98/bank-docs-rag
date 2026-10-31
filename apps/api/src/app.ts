@@ -1,4 +1,3 @@
-import { cors } from "hono/cors";
 import { streamSSE } from "hono/streaming";
 import { Hono } from "hono";
 import {
@@ -21,7 +20,6 @@ export interface AppRuntime {
 export function createApp(runtime: AppRuntime, options?: { streamDelayMs?: number }) {
   const app = new Hono();
   const delayMs = options?.streamDelayMs ?? 0;
-  app.use("*", cors());
 
   app.get("/api/health", (c) =>
     c.json({
