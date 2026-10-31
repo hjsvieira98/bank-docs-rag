@@ -1,0 +1,17 @@
+{
+  "name": "@fathom/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "STREAM_DELAY_MS=12 tsx watch src/main.ts",
+    "start": "tsx src/main.ts"
+  },
+  "dependencies": {
+    "@fathom/core": "*",
+    "@fathom/ingest": "*",
+    "@hono/node-server": "^1.19.6",
+    "dotenv": "^17.2.3",
+    "hono": "^4.10.4"
+  }
+}

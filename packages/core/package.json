@@ -1,0 +1,12 @@
+{
+  "name": "@fathom/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.41.0"
+  }
+}

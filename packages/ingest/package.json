@@ -1,0 +1,13 @@
+{
+  "name": "@fathom/ingest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@fathom/core": "*",
+    "unpdf": "^1.9.1"
+  }
+}
